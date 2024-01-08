@@ -2698,6 +2698,11 @@ a.text-theme:hover, .text-reset:hover {
 .widget_nav_menu .sub-menu {
 	margin-left: 10px
 }
+.sub-menu span{
+	font-family: var(--body-font);
+	font-size: 22px;
+	color: #0E59F2;
+}
 .wp-block-archives {
 	list-style: none;
 	margin: 0;

@@ -1538,6 +1538,9 @@ textarea.is-invalid {
 	font-weight: 500;
 	margin-top: -0.28em
 }
+.card_title{
+	font-size: 18px;
+}
 .box-title a {
 	color: inherit
 }
@@ -1785,6 +1788,14 @@ hr.title-line {
 .box-text {
 	line-height: 24px;
 	margin-bottom: -0.45em
+}
+.service-card .card_content{
+	/* display: inline-block;
+	white-space: nowrap;
+	overflow: hidden ;
+	text-overflow: ellipsis;
+	width: 200px; */
+	margin-bottom: 40px;
 }
 .btn-group {
 	display: -webkit-inline-box;
@@ -2687,6 +2698,11 @@ a.text-theme:hover, .text-reset:hover {
 .widget_nav_menu .sub-menu {
 	margin-left: 10px
 }
+.sub-menu span{
+	font-family: var(--body-font);
+	font-size: 22px;
+	color: #0E59F2;
+}
 .wp-block-archives {
 	list-style: none;
 	margin: 0;
@@ -3408,7 +3424,7 @@ a.text-theme:hover, .text-reset:hover {
 	padding-left: 0;
 	text-transform: capitalize
 }
-.main-menu ul.sub-menu li a:before {
+/* .main-menu ul.sub-menu li a:before {
 	content: url("../img/logo-icon-small.svg");
 	position: absolute;
 	top: 6px;
@@ -3426,10 +3442,10 @@ a.text-theme:hover, .text-reset:hover {
 	visibility: visible;
 	-webkit-transition: 0.3s ease-in-out;
 	transition: 0.3s ease-in-out
-}
-.main-menu ul.sub-menu li a:hover {
+} */
+/* .main-menu ul.sub-menu li a:hover {
 	padding-left: 21px
-}
+} */
 .main-menu ul.sub-menu li a:hover:before {
 	visibility: visible;
 	opacity: 1;
@@ -7759,7 +7775,7 @@ ul.comment-list:has(>.ot-comment-item~.ot-comment-item):first-child>.ot-post-com
 	background-color: var(--white-color);
 	position: relative;
 	z-index: 2;
-	padding: 40px;
+	padding: 30px;
 	border: 1px solid var(--ot-border-color);
 	border-radius: 10px;
 	-webkit-transition: 0.4s ease-in-out;
@@ -7772,10 +7788,14 @@ ul.comment-list:has(>.ot-comment-item~.ot-comment-item):first-child>.ot-post-com
 	text-align: center;
 	border-radius: 10px;
 	background-color: var(--smoke-color2);
-	margin-bottom: 50px
+	margin-bottom: 30px
 }
 .service-card .box-title {
 	margin-bottom: 17px
+}
+.box-icon img{
+	width: 50px;
+	height: 50px;
 }
 .service-card .box-text {
 	margin-bottom: 17px
@@ -7787,7 +7807,8 @@ ul.comment-list:has(>.ot-comment-item~.ot-comment-item):first-child>.ot-post-com
 }
 .service-card .box-btn i {
 	-webkit-transition: 0.4s ease-in-out;
-	transition: 0.4s ease-in-out
+	transition: 0.4s ease-in-out;
+	padding: 5px;
 }
 .service-card .box-btn i:hover {
 	-webkit-transform: rotate(-315deg);
@@ -8935,6 +8956,9 @@ ul.comment-list:has(>.ot-comment-item~.ot-comment-item):first-child>.ot-post-com
 }
 .pb-45 {
 	padding-bottom: 45px
+}
+.pb-47{
+	padding-bottom: 47px
 }
 .pb-50 {
 	padding-bottom: 50px

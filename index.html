@@ -18,6 +18,11 @@
 	<link href="assets/css/fontawesome.min.css" rel="stylesheet">
 	<link href="assets/css/style.css" rel="stylesheet">
 	<link rel="icon" href="assets/img/nemclogo.png">
+	<link rel="stylesheet" href="assets/slider/assets/css/docs.theme.min.css">
+	<link rel="stylesheet" href="assets/slider/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/slider/owlcarousel/assets/owl.theme.default.min.css">
+	<script src="assets/slider//vendors/jquery.min.js"></script>
+    <script src="assest/slider/owlcarousel/owl.carousel.js"></script>
 </head>
 <body>
 
@@ -835,11 +840,30 @@
 		<svg class="progress-circle svg-content" height="100%" viewbox="-1 -1 102 102" width="100%">
 		<path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 307.919;"></path></svg>
 	</div>
+	<script>
+		var owl = $('.owl-carousel');
+		owl.owlCarousel({
+			items:4,
+			loop:true,
+			margin:10,
+			autoplay:true,
+			autoplayTimeout:1000,
+			autoplayHoverPause:true
+		});
+		$('.play').on('click',function(){
+			owl.trigger('play.owl.autoplay',[1000])
+		})
+		$('.stop').on('click',function(){
+			owl.trigger('stop.owl.autoplay')
+		})
+	  </script>
+	<script src="assets/slider/vendors/highlight.js"></script>
+    <script src="assets/slider/assets/js/app.js"></script>
 	<script src="assets/js/vendor/jquery-3.7.1.min.js">
 	</script>
 	<script src="assets/js/app.min.js">
 	</script>
-	<script src="assets/js/main.js">
-	</script><!-- Mirrored from html.onertheme.com/tronix/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 05 Jan 2024 04:48:56 GMT -->
+	 <script src="assets/js/main.js">
+	</script>
 </body>
 </html>

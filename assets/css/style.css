@@ -7780,7 +7780,7 @@ ul.comment-list:has(>.ot-comment-item~.ot-comment-item):first-child>.ot-post-com
 	background-color: var(--white-color);
 	position: relative;
 	z-index: 2;
-	padding: 30px;
+	padding: 10px;
 	border: 1px solid var(--ot-border-color);
 	border-radius: 10px;
 	-webkit-transition: 0.4s ease-in-out;
@@ -9310,4 +9310,27 @@ ul.comment-list:has(>.ot-comment-item~.ot-comment-item):first-child>.ot-post-com
 	.space-extra2, .space-extra2-bottom {
 		padding-bottom: 70px
 	}
+}
+
+
+.service-sec .service-card{
+	margin-bottom: 30px;
+}
+
+
+
+.service-dv{
+	gap: 50px;
+    margin-bottom: 40px;
+}
+.service-dv h4{
+	text-align: center;
+}
+.service-dv .bg-set{
+	background: #f8f8f8;
+    border-radius: 7px;
+}
+
+.service-sec .service-card{
+	border: none;
 }

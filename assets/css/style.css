@@ -9312,3 +9312,15 @@ ul.comment-list:has(>.ot-comment-item~.ot-comment-item):first-child>.ot-post-com
 		padding-bottom: 70px
 	}
 }
+.text-right{
+	text-align: right;
+	
+}
+.text-right h4{
+	color: white;
+	font-family: var(--title-font);
+	font-size: 48px;
+	text-transform: lowercase;
+	font-weight: 400;
+	letter-spacing: -3px;
+}

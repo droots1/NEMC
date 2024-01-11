@@ -5368,7 +5368,8 @@ ul.comment-list:has(>.ot-comment-item~.ot-comment-item):first-child>.ot-post-com
 .hero-style2 {
 	position: relative;
 	z-index: 6;
-	padding: 240px 0
+	/* padding: 240px 0 */
+	padding: 120px 0
 }
 .hero-style2 .hero-title {
 	color: var(--white-color)

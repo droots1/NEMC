@@ -9356,6 +9356,27 @@ ul.comment-list:has(>.ot-comment-item~.ot-comment-item):first-child>.ot-post-com
 	bottom: 200px;
 	left: 50%;
 } */
+.service-sec .service-card{
+	margin-bottom: 30px;
+}
+
+
+
+.service-dv{
+	gap: 50px;
+    margin-bottom: 40px;
+}
+.service-dv h4{
+	text-align: center;
+}
+.service-dv .bg-set{
+	background: #f8f8f8;
+    border-radius: 7px;
+}
+
+.service-sec .service-card{
+	border: none;
+}
 @media (max-width: 426px) {
     .hero-title2{
 		color: rgb(159, 159, 6);

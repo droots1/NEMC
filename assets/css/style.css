@@ -9377,6 +9377,11 @@ ul.comment-list:has(>.ot-comment-item~.ot-comment-item):first-child>.ot-post-com
 .service-sec .service-card{
 	border: none;
 }
+.border-right{
+	border-right: 5px solid red;
+	height: 50px !important;
+}
+
 @media (max-width: 426px) {
     .hero-title2{
 		color: rgb(159, 159, 6);
@@ -9395,4 +9400,4 @@ ul.comment-list:has(>.ot-comment-item~.ot-comment-item):first-child>.ot-post-com
 		letter-spacing: 0px;
 	}
 	
-
+}

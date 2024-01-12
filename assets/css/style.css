@@ -5103,7 +5103,8 @@ ul.comment-list:has(>.ot-comment-item~.ot-comment-item):first-child>.ot-post-com
 	font-weight: 500;
 	line-height: 1.167;
 	margin-bottom: 31px;
-	margin-top: -0.22em
+	margin-top: -0.22em;
+	color: white;
 }
 .hero-title .title1, .hero-title .title2 {
 	display: block;
@@ -9323,4 +9324,54 @@ ul.comment-list:has(>.ot-comment-item~.ot-comment-item):first-child>.ot-post-com
 	text-transform: lowercase;
 	font-weight: 400;
 	letter-spacing: -3px;
+}
+.hero-title2{
+	color: rgb(159, 159, 6);
+	font-family: var(--title-font);
+	font-size: 64px;
+	text-transform: uppercase;
+	font-weight: 600;
+	
+}
+.hero-para{
+	color: rgb(255, 255, 255);
+	font-family: var(--title-font);
+	font-size: 28px;
+	text-transform: uppercase;
+	font-weight: 500;
+	letter-spacing: 0px;
+}
+.hero-title1{
+	color: white;
+}
+.hero_brand img{
+	width: 100px;
+	height: 100px;
+}
+.owl-nav{
+	display: none;
+}
+/* .owl-dots{
+	position: absolute;
+	bottom: 200px;
+	left: 50%;
+} */
+@media (max-width: 426px) {
+    .hero-title2{
+		color: rgb(159, 159, 6);
+		font-family: var(--title-font);
+		font-size: 45px;
+		text-transform: uppercase;
+		font-weight: 600;
+		
+	}
+	.hero-para{
+		font-size: 20px;
+		line-height: 28px;
+	}
+	.text-right h4{
+		font-size: 18px;
+		letter-spacing: 0px;
+	}
+	
 }

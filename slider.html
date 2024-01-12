@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="assets/slider/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/slider/owlcarousel/assets/owl.theme.default.min.css">
+    <script src="assets/slider/vendors/jquery.min.js"></script>
+    <script src="assets/slider/owlcarousel/owl.carousel.js"></script>
+    <style>
+        .owl-carousel .item img{
+            width: 100%;
+            height: 97vh;
+            object-fit: cover;
+            object-position: center;
+        }
+        .owl-dots{
+            position: relative;
+            bottom: 38px;
+        }
+    </style>
+  </head>
+
+  <body style="margin: 0px;">
+
+    <section id="demos">
+      <div class="row">
+        <div class="large-12 columns">
+          <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img src="assets/img/slider/1.png" alt="nemc">
+            </div>
+
+            <div class="item">
+                <img src="assets/img/slider/2.png" alt="nemc">
+            </div>
+
+            <div class="item">
+                <img src="assets/img/slider/3.png" alt="nemc">
+            </div>
+            
+          </div>
+         
+          <script>
+            $(document).ready(function() {
+              var owl = $('.owl-carousel');
+              owl.owlCarousel({
+                items: 1,
+                loop: true,
+                margin: 10,
+                autoplay: true,
+                autoplayTimeout: 2000,
+                autoplayHoverPause: true
+              });
+             
+            })
+          </script>
+        </div>
+      </div>
+    </section>
+
+    <script src="assets/slider/vendors/highlight.js"></script>
+    <script src="assets/slider/js/app.js"></script>
+  </body>
+</html>
